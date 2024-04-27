@@ -25,6 +25,14 @@
   position: absolute;
   top: 450;
 }
+.porfolio_name {
+  position: fixed;
+  /* top: 550; */
+  left: 2px;
+  font-size: xx-large;
+  color: white;
+  font-style: italic;
+}
 .head-info {
   display: flex;
   flex-direction: column;
@@ -48,15 +56,20 @@
   background-color: #456a6e;
   border-left: 2px solid black;
   padding-left: 10px;
+  opacity: 0.7;
 }
 .exp_box:hover {
   width: 85vw;
   z-index: 999 !important;
+  opacity: 1;
 }
 
 .image-div-head {
   display: flex;
   flex-direction: row;
+  border: 10px solid white;
+  border-radius: 30px;
+  padding: 10px;
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -67,9 +80,42 @@
   background-color: white;
   color: grey;
   margin: 20px;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.about_me_box:hover {
+  opacity: 1;
 }
 
 .scroll_comp {
   overflow: scroll;
   z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my_intro {
+  width: 90vw;
+  margin: 20px;
+  height: 30vh;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  font-style: italic;
+}
+.my_intro:hover {
+  opacity: 1;
+}
+
+.contact_box {
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  color: white;
 }
