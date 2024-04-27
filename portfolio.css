@@ -1,0 +1,75 @@
+.base {
+  background-color: #71b08f;
+}
+.canvas_base {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.introduction_box {
+  /* background-color: #456a6e; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  width: 100vw;
+  height: 35vh;
+  /* border: 15px solid #d3dfe0; */
+  margin: 20px;
+  z-index: 500;
+  position: fixed;
+}
+.scroll_comp {
+  position: absolute;
+  top: 450;
+}
+.head-info {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  font-style: italic;
+  width: 100%;
+  font-size: x-large;
+}
+.work_experience_box {
+  width: 90vw;
+  height: 35vh;
+  /* border: 15px solid #d3dfe0; */
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #f7f1e3; */
+}
+.exp_box {
+  width: 30vw;
+  /* height: 35vh; */
+  background-color: #456a6e;
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+.exp_box:hover {
+  width: 85vw;
+  z-index: 999 !important;
+}
+
+.image-div-head {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.about_me_box {
+  width: 90vw;
+  height: 50vh;
+  background-color: white;
+  color: grey;
+  margin: 20px;
+}
+
+.scroll_comp {
+  overflow: scroll;
+  z-index: 999;
+}
