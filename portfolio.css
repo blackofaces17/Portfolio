@@ -17,9 +17,11 @@
   width: 100vw;
   height: 35vh;
   /* border: 15px solid #d3dfe0; */
-  margin: 20px;
+  /* margin: 20px; */
   z-index: 950;
   position: fixed;
+  font-size: 3rem;
+  top: 0;
 }
 .scroll_comp {
   position: absolute;
@@ -29,18 +31,21 @@
   position: fixed;
   /* top: 550; */
   left: 2px;
-  font-size: xx-large;
+  font-size: 1.7rem;
   color: white;
-  font-style: italic;
-  z-index: 950;
+  /* font-style: italic; */
+  z-index: 980;
 }
 .head-info {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin: 2%;
   font-style: italic;
   width: 100%;
-  font-size: x-large;
+  font-size: 3rem;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
 }
 .work_experience_box {
   width: 90vw;
