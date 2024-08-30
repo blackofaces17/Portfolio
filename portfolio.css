@@ -15,6 +15,7 @@
   height: 100%;
   background: linear-gradient(to right, #71b08f, /* #8a9a5b); */ #b2beb5);
   opacity: 0.2;
+  z-index: -1;
 }
 .video-edit {
   z-index: -2;
@@ -22,6 +23,7 @@
   top: 0;
   /* width: 100vw; */
   height: 45vh;
+  z-index: -2;
 }
 video {
   width: 100vw;
