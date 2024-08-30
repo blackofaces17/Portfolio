@@ -9,6 +9,24 @@
   align-items: center;
   position: relative;
 }
+.opaq-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #71b08f, /* #8a9a5b); */ #b2beb5);
+  opacity: 0.2;
+}
+.video-edit {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  /* width: 100vw; */
+  height: 45vh;
+}
+video {
+  width: 100vw;
+  height: 100%;
+}
 .introduction_box {
   /* background-color: linear-gradient(to bottom right, #71b08f, #ffdf00); */
   /* background: linear-gradient(to bottom right, #71b08f, #ffdf00); */
@@ -17,12 +35,12 @@
   justify-content: center;
   color: white;
   width: 100vw;
-  height: 35vh;
+  height: 45vh;
   /* border: 15px solid #d3dfe0; */
   /* margin: 20px; */
   z-index: 950;
   position: fixed;
-  font-size: 3rem;
+  font-size: 2rem;
   top: 0;
 }
 .scroll_comp {
